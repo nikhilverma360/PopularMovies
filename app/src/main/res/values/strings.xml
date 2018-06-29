@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">UdacityPopularMovies</string>
+    <string name="txt_movies">Movies</string>
+    <string name="txt_empty_string" />
+    <string name="txt_sort">Sort</string>
+    <string name="error_no_internet">No Internet Connectivity. Try Refreshing!</string>
+    <string name="collasping_image">Collasping Image</string>
+    <string name="txt_refresh">Refresh</string>
+    <string name="txt_filter">Filter</string>
+    <string name="txt_popular">Popular</string>
+    <string name="txt_top_rated">Top Rated</string>
+    <string name="txt_favorites">Favorites</string>
+    <string name="txt_favorite">Favorite</string>
+    <string name="txt_rating">Rating</string>
+    <string name="txt_plot">Plot</string>
+    <string name="txt_reviews">Reviews</string>
+    <string name="txt_see_all">See All</string>
+    <string name="txt_trailers">Trailers</string>
+    <string name="txt_to_add_favorites">to add favorites</string>
+    <string name="txv_please_click">Please click</string>
+    <string name="txt_no_fav_one">You seem to have no favorite movies</string>
+    <string name="txt_cast">Cast</string>
+
+    // Accessibility
+    <string name="no_internet">No internet</string>
+    <string name="close_button_filter">close_button_filter</string>
+    <string name="check_imv_popular">check_imv_popular</string>
+    <string name="check_imv_top_rated">check_imv_top_rated</string>
+    <string name="detail_movie_poster">detail_movie_poster</string>
+    <string name="rating">Rating</string>
+    <string name="list_movie_poster">list_movie_poster</string>
+    <string name="item_rating_star">item_rating_star</string>
+    <string name="review_person">review_person_img</string>
+    <string name="img_video_thumb">video_thumb</string>
+    <string name="share">share</string>
+    <string name="play_thumb">play_thumb</string>
+    <string name="cast">cast</string>
+    <string name="video_play">video_play</string>
+    <string name="more">more</string>
+    <string name="close_filter">close_filter</string>
+    <string name="favorite">favorite</string>
+    <string name="no_fav">no_fav</string>
+    <string name="love">love</string>
+
+    <string name="review_placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </string>
+
+</resources>

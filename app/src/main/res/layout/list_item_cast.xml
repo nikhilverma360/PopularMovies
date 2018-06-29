@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imv_cast"
+        android:layout_width="@dimen/cast_dimen"
+        android:layout_height="@dimen/cast_dimen"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/cast"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txv_cast_name"
+        android:layout_width="@dimen/min_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:layout_marginTop="@dimen/margin_8"
+        android:fontFamily="@font/worksans_bold"
+        android:lines="3"
+        android:textAlignment="center"
+        android:textColor="@color/grey_700"
+        android:textSize="@dimen/txt_14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imv_cast"
+        app:layout_constraintStart_toStartOf="@+id/imv_cast"
+        app:layout_constraintTop_toBottomOf="@+id/imv_cast"
+        tools:text="Chris Hemsworth" />
+
+</android.support.constraint.ConstraintLayout>
